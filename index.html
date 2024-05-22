@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9beed53f9d.js" crossorigin="anonymous"></script>
+    <script src="js/parallax-scroll.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="js/forms.js"></script>
+    <title>Teleskop Jamesa Webba</title>
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" id="logo" href="#top">
+        <img src="images/Teleskop_Jamesa_Webba_logo.jpg" alt="Teleskop Jamesa Webba - logo" width="40" height="40" class="navbar-brand">
+        Teleskop Jamesa Webba</a>
+      <div class="container text-center">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-flex bd-highlight">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+          <a class="btn btn-primary nav-link text-white mt-1" href="#main-page" title="Strona główna" id="main-pageScroll">Strona główna</a>
+          <a class="btn btn-primary nav-link text-white mt-1" href="#news" title="Wiadomości" id="newsScroll">Wiadomości</a>
+          <a class="btn btn-primary nav-link text-white mt-1" href="#history" title="Historia teleskopu" id="historyScroll">Historia teleskopu</a>
+          <a class="btn btn-primary nav-link text-white mt-1" href="#gallery" title="Galeria" id="galleryScroll">Galeria</a>
+          <a class="btn btn-primary nav-link text-white mt-1" href="#contact" title="Kontakt" id="contactScroll">Kontakt</a>
+        </div>
+
+        <form class="d-flex mt-1">
+          <input class="form-control mr-2 ml-1" type="search" placeholder="Szukaj" aria-label="Search">
+          <button id="magnifying-glass" class="btn btn-outline-info" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="image-container" id="top">
+        <div id="carouselHeaderCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselHeaderCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselHeaderCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselHeaderCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/star-birth.jpg" class="d-block w-100" alt="Kosmiczne Klify">
+              <div class="carousel-caption d-md-block">
+                <h4>Kosmiczne klify, błyszczący krajobraz narodzin gwiazd</h4>
+                <p> Za zasłoną pyłu i gazu w tych „Kosmicznych Klifach” kryją się wcześniej młode gwiazdy, teraz odkryte przez Webba. Wiemy to jest hit. Poświęć chwilę, aby podziwiać Mgławicę Kil w całej okazałości
+                </p>            
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/star-birth2.jpg" class="d-block w-100" alt="Błyszczący krajobraz narodzin gwiazd">
+              <div class="carousel-caption d-md-block">
+                <h4>Webb NASA odkrywa kosmiczne klify i błyszczący krajobraz narodzin gwiazd</h4>
+                <p>Złożony obraz Kosmicznych Klifów w Mgławicy Kil, wykonany za pomocą instrumentów NIRCam i MIRI teleskopu Webba. Na pierwszym planie zdjęcia dominują różowawo-brązowe chmury gazu i pyłu, błyszczące młodymi gwiazdami. Za świecącymi górzystymi chmurami niebo wydaje się granatowe, z błyszczącymi gwiazdami i galaktykami.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/star-birth3.jpg" class="d-block w-100" alt="Aktywnie formujące się gwiazdy">
+              <div class="carousel-caption d-md-block">
+                <h4>Bardzo szczegółowy obraz w podczerwieni aktywnie tworzących się gwiazd</h4>
+                <p>W pomarańczowo-białej plamie pośrodku zdjęcia znajdują się 2 aktywnie formujące się gwiazdy. Obie gwiazdy są ukryte głęboko w dysku gazu i pyłu, który napędza ich wzrost. Przez tysiące lat para wielokrotnie połykała, a następnie wypluwała otaczającą ich materię, tworząc ogniste pomarańczowe płaty.</p>
+               </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselHeaderCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Poprzednie</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselHeaderCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Następne</span>
+          </button>
+        </div>
+      </div>
+    </header>
+      
+      <hr class="linia">
+
+      <section class="parallax parallax-1">
+        <h1 class="text-white text-center pt-5" id="title"><i class="fa-solid fa-rocket"></i> Wystrzelenie Kosmicznego Teleskopu Jamesa Webba</h1>
+      </section>
+
+      <section id="main-page"  class="jumbotron mb-0">
+      <div class="container">
+        <h1 class="text-primary text-center mb-5"><i class="fa-solid fa-star"></i> Webb to najważniejsze obserwatorium następnej dekady, służące tysiącom astronomów na całym świecie. Bada każdą fazę historii naszego Wszechświata. <i class="fa-solid fa-globe"></i></h1>
+        <p>
+          Webb to najważniejsze obserwatorium następnej dekady, służące tysiącom astronomów na całym świecie. Bada każdą fazę historii naszego Wszechświata, począwszy od pierwszych blasków po Wielkim Wybuchu, przez powstawanie układów słonecznych zdolnych do utrzymania życia na planetach takich jak Ziemia, aż po ewolucję naszego własnego Układu Słonecznego.          <br /><br />
+          Webb bada każdą fazę historii naszego Wszechświata, począwszy od pierwszych poświaty świetlnej po Wielkim Wybuchu, poprzez powstawanie układów słonecznych zdolnych do utrzymania życia na planetach takich jak Ziemia, aż po ewolucję naszego własnego Układu Słonecznego. Webb wystrzelono 25 grudnia 2021 r. Nie krąży wokół Ziemi jak Kosmiczny Teleskop Hubble'a, okrąża Słońce w odległości 1,5 miliona kilometrów (1 miliona mil) od Ziemi, w tak zwanym drugim punkcie Lagrange'a, czyli L2.        
+        </p>
+      </div>
+    </section>
+
+    <section class="parallax parallax-2"></section>
+
+    <section id="news" class="bg-dark">
+      <div class="container">
+      <h1 class="text-white text-center pt-3 pb-3" id="title_news">Wiadomości <i class="fa-solid fa-rocket"></i></h1>
+      <div class="container col-md-8 bg-light pl-4 pr-4">
+        <h3 class="text-primary text-center pt-4 pb-3">Webb z NASA zadziwia nowym spojrzeniem na eksplodowaną gwiazdę w wysokiej rozdzielczości</h3>
+        <img src="images/news1.jpg" class="img-fluid mb-2" alt="pozostałość po supernowej Cassiopeia A"> 
+        <p>Niczym błyszcząca, okrągła ozdoba, gotowa do umieszczenia w idealnym miejscu na świątecznej choince, pozostałość po supernowej Cassiopeia A (Cas A) lśni na nowym zdjęciu wykonanym przez Kosmiczny Teleskop Jamesa Webba. W ramach Świąt w Białym Domu 2023 Pierwsza Dama Stanów Zjednoczonych dr Jill Biden zadebiutowała pierwszym w historii kalendarzem adwentowym Białego Domu. Aby pokazać „magię, cuda i radość” okresu świątecznego, dr Biden i NASA świętują, prezentując nowe zdjęcie Webba.
+        <br /><br />
+        Chociaż wszystko jest jasne, ta scena nie jest przysłowiową cichą nocą. Widok Cas A z kamery NIRCam (kamery bliskiej podczerwieni) wykonanej przez Webba ukazuje tę gwiezdną eksplozję w rozdzielczości wcześniej nieosiągalnej na tych długościach fal. To zdjęcie w wysokiej rozdzielczości odsłania skomplikowane szczegóły rozszerzającej się powłoki materii uderzającej w gaz wydzielany przez gwiazdę przed jej eksplozją.        <br /><br />
+        Cas A to jedna z najlepiej zbadanych pozostałości po supernowej w całym kosmosie. Przez lata obserwatoria naziemne i kosmiczne, w tym należące do NASA Obserwatorium Rentgenowskie Chandra, Kosmiczny Teleskop Hubble'a i wycofany z użytku Kosmiczny Teleskop Spitzera, stworzyły wielofalowe zdjęcie pozostałości obiektu.        
+        <br /><br />
+        Jednak astronomowie wkroczyli w nową erę w badaniach Cas A. W kwietniu 2023 roku instrument MIRI (instrument średniej podczerwieni) Webba rozpoczął ten rozdział, ujawniając nowe i nieoczekiwane cechy wewnętrznej powłoki pozostałości po supernowej. Wiele z tych cech jest niewidocznych na nowym obrazie NIRCam, a astronomowie badają przyczynę.        </p>
+          
+        <hr />
+
+        <h3 class="text-primary text-center pt-2 pb-3">Webb NASA identyfikuje najmniejszego, swobodnie pływającego brązowego karła</h3>
+        <img src="images/news2.jpg" class="img-fluid mb-2" alt="gwiazdozbiór IC 348"> 
+        <p>Powyższe zdjęcie wykonane za pomocą instrumentu NIRCam (kamera bliskiej podczerwieni) znajdującego się na należącym do NASA Kosmicznym Teleskopie Jamesa Webba przedstawia centralną część gromady gwiazd IC 348. Astronomowie przeczesywali gromadę w poszukiwaniu maleńkich, swobodnie unoszących się brązowych karłów: obiektów zbyt małych, aby mogły być gwiazdami ale większy niż większość planet. Odkryli trzy brązowe karły o masie mniejszej niż ośmiokrotność masy Jowisza, które są zakreślone na głównym zdjęciu i pokazane na szczegółowych rysunkach po prawej stronie. Najmniejsza waży zaledwie trzy do czterech razy więcej niż Jowisz, co podważa teorie dotyczące powstawania gwiazd.
+        </p>
+        <br />
+        </div>
+      </div>
+        </section>   
+
+    <section class="parallax parallax-3"></section>
+
+    <section id="history">
+      <div class="container bg-light">
+      <h1 class="text-secondary text-center pt-3" id="title_history">Historia teleskopu <i class="fa-solid fa-newspaper"></i></h1>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-sx-12 mt-5">
+            <img src="images/history1.jpg" class="img-fluid rounded-circle" alt="NASA" id="history1">
+            <h3 class="text-info text-center mt-2">Historia teleskopu Jamesa Webba</h3>
+            <h5>1989</h5>
+            <p>Instytut Naukowy o Teleskopach Kosmicznych (STScI) i NASA są współgospodarzami warsztatów dotyczących teleskopu kosmicznego nowej generacji w STScI. Skupiono się na możliwościach naukowych i technicznych obserwatorium, które miało podążać za Kosmicznym Teleskopem Hubble'a po jego wycofaniu z eksploatacji, co szacowano wówczas na rok 2005.            
+            </p>
+            <h5>1995—1996</h5>
+            <p>Komisja STScI zaleca znacznie większy teleskop zdolny do obserwacji światła podczerwonego. NASA wybiera Centrum Lotów Kosmicznych im. Goddarda i STScI do zbadania wykonalności teleskopu kosmicznego nowej generacji. Trzy niezależne zespoły rządowe i lotnicze stwierdzają, że utworzenie takiego obserwatorium jest wykonalne.            
+            </p>
+            <h5>1997</h5>
+            <p>NASA wybiera zespoły z Goddard Space Flight Center, TRW i Ball Aerospace, aby dopracować wymagania techniczne i finansowe teleskopu.            
+            </p>
+            <h5>1999</h5>
+            <p>Lockheed Martin, Ball Aerospace i TRW (również współpracujące z firmami Kodak i ATK) przeprowadzają badania misji fazy A, obejmujące wstępną analizę projektu i kosztów.
+            </p>            
+            <h5>2002</h5>
+            <p>Na podstawie dwóch badań fazy A NASA wybiera projekt TRW/Ball Aerospace do kontynuacji w szczegółowych badaniach projektu fazy B, które sprawdzają wydajność i koszt wybranego projektu.            
+            </p>
+            <h5>2004</h5>
+            <p>Rozpoczyna się budowa niektórych części teleskopu, które wymagają szeroko zakrojonych i długotrwałych prac — w szczególności instrumentów naukowych Webba i 18 segmentów zwierciadła głównego.            
+            </p>
+            <h5>2005</h5>
+            <p>NASA zatwierdza użycie rakiety Ariane 5 Europejskiej Agencji Kosmicznej do wyniesienia Webba w przestrzeń kosmiczną.
+            </p>            
+            <h5>2006</h5>
+            <p>Zespoły instrumentów naukowych zajmujących się kamerą bliskiej podczerwieni (NIRCam) i instrumentem średniej podczerwieni (MIRI) przechodzą krytyczne recenzje projektów i rozpoczynają budowę przyrządów pokładowych. Wszystkie podstawowe technologie Webba zostały pomyślnie przetestowane w warunkach lotu.
+            </p>          
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-sx-12 mt-5">
+            <img src="images/history2.jpg" class="img-fluid rounded-circle" alt="NASA" id="history2">
+            <h3 class="text-info text-center mt-2">NASA i Instytut Naukowy Teleskopu Kosmicznego</h3>
+            <h5>2007—2008</h5>
+            <p>NASA zleciła przegląd misji Webba grupom wewnętrznym i zewnętrznym. Wewnętrzny wstępny przegląd projektu i zewnętrzny przegląd niezawierający rzeczników stwierdzają, że plany i projekty osiągnęły dojrzałość niezbędną, aby NASA mogła przystąpić do faz C i D, które obejmują szczegółowe projektowanie, zakup, testowanie i montaż komponentów teleskopu i obserwatorium. Budowa zaczyna się na dobre.            
+            </p>
+            <h5>2009</h5>
+            <p>Konstrukcja modułu zintegrowanego instrumentu naukowego (ISIM), zbudowana tak, aby pomieścić cztery instrumenty naukowe Webba, przybywa do Centrum Lotów Kosmicznych Goddarda w celu przetestowania.                        
+            </p>
+            <h5>2010</h5>
+            <p>Webb przeszedł pomyślnie przegląd projektu o znaczeniu krytycznym, co oznacza, że zintegrowane obserwatorium spełni wszystkie wymagania naukowe i inżynieryjne związane ze swoją misją.                          
+            </p>
+            <h5>2011</h5>
+            <p>Lustra Webba są ukończone. Są pokryte berylem cienką warstwą złota i przeszły testy kriogeniczne, podczas których wystawiono je na działanie niskich temperatur, jakim będą poddawane w kosmosie.                       
+            </p>
+            <h5>2012</h5>
+            <p>Centrum Lotów Kosmicznych im. Goddarda odebrało z przestrzeni europejskiej i kanadyjskiej dwa z czterech instrumentów naukowych Webba: instrument średniej podczerwieni (MIRI), kamerę bliskiej podczerwieni i spektrograf bezszczelinowy (NIRISS), a także precyzyjny czujnik naprowadzania Webba agencje. Zwierciadło wtórne Webba i pierwsze trzy segmenty zwierciadła głównego również docierają do Centrum Lotów Kosmicznych Goddarda z firmy Ball Aerospace & Technologies Corp.           
+            </p>
+            <h5>2013</h5>
+            <p>Dwa boczne „skrzydła” konstrukcji płyty montażowej Webba zostały ukończone przez Northrop Grumman i ATK. Dwa ostatnie instrumenty naukowe Webba, kamera bliskiej podczerwieni (NIRCam) i spektrograf bliskiej podczerwieni (NIRSpec), a także pozostałe segmenty zwierciadła głównego, zostały dostarczone do Centrum Lotów Kosmicznych Goddarda.                         
+            </p>
+            <h5>2014</h5>
+            <p>Rozpoczyna się produkcja części statków kosmicznych (takich jak zbiorniki paliwa, żyroskopy i panele słoneczne).            
+              Rozpoczynają się testy kriogeniczne modułu zintegrowanego instrumentu naukowego (ISIM), obejmującego wszystkie cztery instrumenty, w celu wykazania wydajności instrumentów, a także elektroniki używanej do komunikacji z instrumentami.            
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-sx-12 mt-5">
+            <img src="images/history3.jpg" class="img-fluid rounded-circle" alt="NASA" id="history3">
+            <h3 class="text-info text-center mt-2">Teleskop kosmiczny nowej generacji</h3>
+            <h5>2015-2016</h5>
+            <p>Zakończono testy kriogeniczne modułu zintegrowanego instrumentu naukowego (ISIM). Na płycie montażowej zamontowano 18 segmentów zwierciadła głównego wraz ze zwierciadłem wtórnym i wspornikami. Zwierciadła główne i wtórne są zintegrowane z lusterkami tylnymi i modułem ISIM, tworząc jednostkę znaną jako element teleskopu optycznego.                         
+            </p>
+            <h5>2017</h5>
+            <p>Element teleskopu optycznego pomyślnie przechodzi testy kriogeniczne w gigantycznej termicznej komorze próżniowej zwanej Komorą A w Johnson Space Center.                         
+            </p>
+            <h5>2018</h5>
+            <p>Po pomyślnym zakończeniu końcowego testu próżni termicznej element teleskopu optycznego zostaje dostarczony do firmy Northrop Grumman w Redondo Beach w Kalifornii, gromadząc wszystkie elementy lotu Webba pod jednym dachem.              
+              Przeprowadzono pierwsze udane testy łączności z Centrum Operacji Misji w STScI do statku kosmicznego teleskopu na ziemi w Kalifornii.            
+            </p>
+            <h5>2019</h5>
+            <p>Po raz pierwszy element statku kosmicznego Webba — osłona przeciwsłoneczna i autobus — pomyślnie przechodzi testy akustyczne, wibracyjne i próżniowe, które symulują surowe warunki środowiska startu, a także ekstremalną próżnię kosmiczną.              
+              Inżynierom udało się połączyć dwie połówki teleskopu Webba — element teleskopu optycznego i statek kosmiczny — w Northrop Grumman.            
+            </p>
+            <h5>2020</h5>
+            <p>Webb jest po raz pierwszy całkowicie złożony i przechodzi końcowe testy środowiskowe, aby udowodnić, że jest w stanie wytrzymać wstrząsy i przepychania w środowisku startu.              
+              Osłona przeciwsłoneczna Webba jest również rozkładana po raz ostatni na Ziemi.            
+            </p>
+            <h5>2021</h5>
+            <p>Webb jest złożony i schowany przed ostatecznym startem. STScI ogłasza wybór programów obserwacji ogólnych cyklu 1, stanowiących uzupełnienie badań naukowych, które Webb będzie prowadził podczas pierwszego roku swojej misji w kosmosie.              
+              Webb zostaje wysłany do Centrum Kosmicznego Gujany (Le Center Spatial Guyanais, CSG) w Kourou w Gujanie Francuskiej w celu wystrzelenia.
+            </p>             
+              <h5>25 grudnia 2021 r.: Wystrzelenie kosmicznego teleskopu Jamesa Webba należącego do NASA</h5>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <section class="parallax parallax-4"></section>
+
+    <section id="gallery" class="bg-dark">
+      <div class="container">
+      <h1 class="text-white-50 text-center pt-3 pb-3" id="title_gallery">Galeria <i class="fa-solid fa-image"></i></h1>
+        <div id="carouselGalleryCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselGalleryCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselGalleryCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselGalleryCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselGalleryCaptions" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/gallery/Teleskop_Jamesa_Webba_zdjecie_4.jpg" class="d-block w-100" alt="Narodziny gwiazd podobnych do Słońca">
+              <div class="carousel-caption d-md-block">
+                <h4>Zbliżenie na narodziny gwiazd podobnych do Słońca</h4>
+                <p>Uczcijmy rok nauki Webba, rzucając zupełnie nowe spojrzenie na rodzące się gwiazdy podobne do Słońca na tym szczegółowym zbliżeniu na Rho Ophiuchi, najbliższy Ziemi region gwiazdotwórczy. Webb dostrzegł około 50 młodych gwiazd, wiele z nich masą zbliżoną do naszej gwiazdy, co dało nam wgląd w wczesne życie Słońca. Ciemne, gęste kokony pyłowe wciąż tworzą protogwiazdy, podczas gdy wyłaniający się noworodek gwiazdowy (na górze pośrodku) wystrzeliwuje dwa ogromne strumienie molekularnego wodoru.                                 
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gallery/Teleskop_Jamesa_Webba_zdjecie_1.jpg" class="d-block w-100" alt="Naddźwiękowy wypływ młodej gwiazdy">
+              <div class="carousel-caption d-md-block">
+                <h4>Naddźwiękowy wypływ młodej gwiazdy</h4>
+                <p>Obraz Mgławicy Pierścień wykonany przez Webba w bliskiej podczerwieni ma inną paletę kolorów. Tym razem wewnętrzna wnęka mgławicy zawiera odcienie błękitu i zieleni, podczas gdy szczegółowy pierścień przechodzi przez odcienie pomarańczy w wewnętrznych obszarach i różu w obszarach zewnętrznych. Scenę wypełniają gwiazdy, szczególnie widoczna gwiazda z 8 długimi kolcami w prawym górnym rogu.                                  
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gallery/Teleskop_Jamesa_Webba_zdjecie_2.jpg" class="d-block w-100" alt="Dying Star">
+              <div class="carousel-caption d-md-block">
+                <h4>Umierająca gwiazda (obraz NIRCam)</h4>
+                <p>Obraz Mgławicy Pierścień wykonany przez Webba w bliskiej podczerwieni ma inną paletę kolorów. Tym razem wewnętrzna wnęka mgławicy zawiera odcienie błękitu i zieleni, podczas gdy szczegółowy pierścień przechodzi przez odcienie pomarańczy w wewnętrznych obszarach i różu w obszarach zewnętrznych. Scenę wypełniają gwiazdy, szczególnie widoczna gwiazda z 8 długimi kolcami w prawym górnym rogu.                                 
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/gallery/Teleskop_Jamesa_Webba_zdjecie_3.jpg" class="d-block w-100" alt="Orion mosaic">
+              <div class="carousel-caption d-md-block">
+                <h4>Mozaika NIRCam Orion o długich falach w ESASky</h4>
+                <p>Zdjęcie młodego obszaru gwiazdotwórczego wypełnionego delikatnymi fioletowymi, zielonymi i czerwonymi mgławicami. Fioletowy zjonizowany gaz jest widoczny głównie w centrum, z brązami, zielenią i czerwienią z tyłu, podczas gdy obrzeża są głównie jasnozielone i ciemniejsze brązowe po lewej stronie. W górnej, środkowej części znajduje się duża mgławica w kolorze żółtym, pomarańczowym, czerwonym i fioletowym, a po prawej stronie mgławica blednie do niemal czarnej.                               
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselGalleryCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Poprzednie</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselGalleryCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Następne</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="container bg-light">
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <h2 class="text-secondary">Kontakt</h2>
+            <p>Mary W. Jackson NASA Headquarters
+            <br />300 E. Street SW, Suite 5R30
+            <br />Washington, DC 20546
+            <br /><i class="fa-solid fa-phone-volume"></i> (202) 358-0001 (Office)
+            <br /><i class="fa-solid fa-fax"></i> (202) 358-4338 (Fax)
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="text-secondary mt-5 mb-4">Formularz kontaktowy <i class="fa-solid fa-user-tie"></i></h4>
+              <form action="#contact" method="post" onsubmit="return checkForm();" novalidate>
+              <fieldset> 
+            <div class="form-group row">
+              <label for="contactName" class="col-sm-4 col-form-label">Imię i nazwisko</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="contactName" onblur="return checkName();">
+                <p id="errorName" class="invalid-feedback"></p>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="contactEmail" class="col-sm-4 col-form-label">Adres email</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="contactEmail" onblur="return checkEmail();">
+                <p id="errorEmail" class="invalid-feedback"></p>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="information" class="col-sm-4 col-form-label">Informacja</label>
+              <div class="col-sm-8">
+                <textarea class="form-control" id="information" rows="3" onblur="return checkInformation();"></textarea>
+                <p id="errorInformation" class="invalid-feedback"></p>
+              </div>
+            </div>
+              <button class="btn btn-primary" type="submit">Wyślij</button>
+            </fieldset>
+            </form>
+          <img src="images/nasa.jpg" class="img-fluid mt-4" alt="NASA">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid pr-0 pl-0">
+        <button type="button" class="btn btn-secondary btn-sm btn-block" data-toggle="modal" data-target="#HeaderModal">Polityka prywatności</button>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="HeaderModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="staticBackdropLabel">Polityka prywatności</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Zobowiązujemy się do zachowania dokładności, poufności i bezpieczeństwa Twoich danych osobowych („Dane osobowe”). W ramach tego zobowiązania nasza polityka prywatności reguluje nasze działania w zakresie gromadzenia, wykorzystywania i ujawniania danych osobowych. Nasza polityka prywatności opiera się na wartościach określonych w Kodeksie modelowym ochrony danych osobowych Kanadyjskiego Stowarzyszenia Normalizacyjnego oraz kanadyjskiej ustawie o ochronie danych osobowych i dokumentach elektronicznych.          
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light btn-sm" data-dismiss="modal">Zamknij</button>
+            <button type="button" class="btn btn-info btn-sm" data-dismiss="modal">Rozumiem</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

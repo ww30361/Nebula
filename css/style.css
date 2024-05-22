@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size:18px; 
+    color:#333333; 
+    background:#d2cfcf; 
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.linia {
+    background-color: #f8f8f8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.carousel-item {
+    height: 900px;
+    overflow: hidden;
+  }
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+
+.btn-primary.nav-link {
+    border: none;
+    background-color: #3c8f9a;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.btn-primary.nav-link:active {
+    border: none;
+    background-color: #49257b;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.btn-primary.nav-link:focus {
+    background-color: blue;
+}
+
+.btn-primary.nav-link:hover {
+    background-color: #48227d;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-toggler {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+}
+
+section.parallax {
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.parallax-1 {
+     background-image: url("../images/parallax/bg1.jpg");
+    }
+
+.parallax-2 {
+    background-image: url("../images/parallax/bg2.jpg");
+    }
+
+.parallax-3 {
+    background-image: url("../images/parallax/bg3.jpg");
+    }
+
+.parallax-4 {
+    background-image: url("../images/parallax/bg4.jpg");
+    }
+
+h5 {
+    color: #ffffff;
+    background-color: #999999;
+    padding: 5px 0 5px 10px;
+}
+
+@media (min-width: 240px) {
+    section.parallax {
+        height: 200px;
+    }
+    .carousel-item {
+        height: 500px;
+        overflow: hidden;
+      }
+}
+
+@media (min-width: 576px) {
+    section.parallax {
+        height: 300px;
+    }
+    .carousel-item {
+        height: 600px;
+        overflow: hidden;
+      }
+}
+
+@media (min-width: 768px) {
+    section.parallax {
+        height: 400px;
+    }
+    .carousel-item {
+        height: 700px;
+        overflow: hidden;
+      }
+}
+
+@media (min-width: 992px) {
+    section.parallax {
+        height: 500px;
+    }
+    .carousel-item {
+        height: 800px;
+        overflow: hidden;
+      }
+}
+
+@media (min-width: 1200px) {
+    section.parallax {
+        height: 600px;
+    }
+    .carousel-item {
+        height: 900px;
+        overflow: hidden;
+      }
+}

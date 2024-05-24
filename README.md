@@ -1,6 +1,6 @@
 Opis Projektu:
 
-Strona internetową poświęconą Teleskopowi Jamesa Webba. Strona zawiera informacje o teleskopie, jego historii, najnowszych wiadomościach, galerię zdjęć oraz sekcję kontaktową. Strona umożliwia użytkownikom przeglądanie, filtrowanie i analizowanie zdjęć oraz innych danych związanych z obiektami astronomicznymi.
+Strona internetowa poświęcona Teleskopowi Jamesa Webba. Strona zawiera informacje o teleskopie, jego historii, najnowszych wiadomościach, galerię zdjęć oraz sekcję kontaktową. Strona umożliwia użytkownikom przeglądanie, filtrowanie i analizowanie zdjęć oraz innych danych związanych z obiektami astronomicznymi.
 
 ![preview](https://github.com/ww30361/Nebula/assets/158603884/edd1017a-a45a-43e4-86ec-1be93530d8e4)
 
